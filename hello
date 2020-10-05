@@ -1,0 +1,18 @@
+#include <iosream>
+using namespace std ;
+
+int main()
+{
+    double firstnumber , secondnumber , productoftwonumbers ;
+    cout << "enter two numbers : " ;
+    
+    // stores two floating point numbers in variable firstnumber and secondnumber respectively
+    cin >> firstnumber >> secondnumber ;
+    
+    // perfoms multiplication and stores the result in variable productoftwonumbers
+    productoftwonumbers = firstnumber * secondumber;
+    
+    cout << "product = " << productoftwonumbers;
+    
+    return 0;
+}
